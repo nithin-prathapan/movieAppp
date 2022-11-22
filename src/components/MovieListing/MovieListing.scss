@@ -1,0 +1,35 @@
+@import '../../common/colors.scss';
+
+.movie-list {
+    margin: 20p 0px;
+
+    h2 {
+        color: $font_secondary;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+}
+
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 15px;
+}
+
+////////shows css
+
+.show-list {
+    margin: 20p 0px;
+
+    h2 {
+        color: $font_secondary;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+}
+
+.show-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 15px;
+}
