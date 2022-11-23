@@ -10,11 +10,7 @@
     }
 }
 
-.movie-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    grid-gap: 15px;
-}
+
 
 ////////shows css
 
@@ -26,10 +22,4 @@
         font-weight: 400;
         margin-bottom: 10px;
     }
-}
-
-.show-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    grid-gap: 15px;
 }
